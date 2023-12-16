@@ -1,0 +1,960 @@
+html,
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F5F5;
+}
+
+a {    
+    text-decoration: none;
+}
+
+.Navbar {
+    width: 100%;
+    background-color: #007CBD;
+    z-index: 1000;
+    position: fixed;
+    height: 80px;
+}
+
+
+.imgHero{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    object-fit: cover;
+}
+.header img {
+    margin-left: 50px;
+    width: 192px;
+    height: 50px;
+    margin-top: 13px;
+    object-fit: cover;
+}
+
+.navbar2 {
+    display: block;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.nav-item{
+    margin-right: -10px; /* Menambahkan jarak sebesar 10px di sebelah kanan setiap nav-item */
+  }
+  
+.nav-item:last-child {
+    margin-right: 0px; /* Menghapus padding kanan pada nav-item terakhir */
+    padding-left: 0;
+}
+.nav-item2 button{
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    width: 120px;
+    background-color: #FFFFFF;
+    color: #007CBD;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 20px;
+}
+  
+  /* .navbar2 ul li:last-child a {
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+  } */
+
+.navbar2 ul li a {
+    color: aliceblue;
+    padding-top: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 55px;
+    line-height: 24px;
+}
+
+.navbar2 ul li a:hover {
+    color: yellow;
+    text-decoration: yellow underline;
+}
+.nav-item2 button:hover {
+    color: yellow;
+    transform: scale(1.02);
+}
+
+
+.navbar2 input::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+.navbar2 input::-moz-search-cancel-button {
+    -moz-appearance: none;
+}
+
+.navbar2 input::-ms-clear {
+    display: none;
+}
+.hero-mobile{
+    display: none;
+}
+.Hero-offer{
+    position: relative;
+    color: white;
+    margin: 430px 0px 50px 0px;
+    text-align: center;
+}
+.Hero-offer h6{
+    font-size: 24px;
+    font-weight: 600;
+}
+.Hero-offer h1{
+    padding-top: 18px;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 36px;
+}
+.Hero-offer p{
+    padding-top: 13px;
+    margin-left: 300px;
+    width: 846px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #F5F5F5;
+    line-height: 17px;
+}
+.getEarlyAccess{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: 50px;
+}
+.getEarlyAccess button{
+    margin-top: 28px;
+    font-size: 14px;
+    font-weight: 800;
+    width: 221px;
+    height: 50px;
+    margin-left: -160px;
+    background-color: #3EB7DD;
+    color: white;
+    border-radius: 5px;
+}
+.getEarlyAccess button:hover{
+    transform: scale(1.01);
+}
+
+.footer{
+    display: flex;
+    margin-top: 0px;
+    width: 100vw;
+    height: 244px;
+    background-color: #007CBD;
+}
+.logoFoot img{
+    width: 250px;
+    height: 66px;
+    object-fit: contain;
+}
+.shareMedia{
+    margin-top: 30px;
+    display: flex;
+}
+.shareMedia h6{
+    width: 800px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    color: white;
+}
+.div2{
+    margin-left: 480px;
+}
+.div2 a{
+    margin-right: 20px;
+    color: white;
+}
+.contentFooter{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.footer hr{
+    border-color: white;
+    border-width: 1px;
+    opacity: 1;
+}
+.copyright p{
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+}
+.container{
+    width: 100vw;
+    margin-top: 600px;
+    background-color: #F5F5F5;
+
+}
+.mockUp{
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+}
+.offer{
+    width: 700px;
+    height: 656px;
+    padding-left: 35px;
+    padding-top: 20px;
+}
+.offer h1{
+    font-size: 20px;
+    font-weight: 700;
+    color: #007CBD;
+}
+.offer p{
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+}
+.share{
+    display: flex;
+}
+.share p{
+    margin-top: 0px;
+    color: #007CBD;
+    font-size: 14px;
+    font-weight: 400
+}
+.share a{
+    margin-left: 20px;
+}
+.mockup .mockup1{
+    position: relative;
+}
+.info-section1{
+    display: flex;
+    justify-content: center;
+    margin-top: -300px;
+    margin-left: 0px;
+    object-fit: cover;
+    
+}
+.info-section1 .card-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 25px;
+}
+.info-section1 .card-1{
+    width: 751px;
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.info-section1 .card-2{
+    width: 751px;
+    height: 210px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.backgroundMekanisme{
+    position: absolute;
+    width: 100%;
+    margin-left: 0px;
+    height: 1030px;
+}
+.isi h3{
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #007CBD;
+}
+.isi h3 span{
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 370px;
+}
+.isi h6{
+    padding-left: 10px;
+    font-size: 12px;
+    width: 625px;
+    line-height: 20px;
+}
+.isi1 h3{
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #007CBD;
+}
+.isi1 h3 span{
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 320px;
+}
+.isi1 h6{
+    padding-left: 10px;
+    font-size: 12px;
+    width: 630px;
+    line-height: 20px;
+}
+.isi2 h3{
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #007CBD;
+}
+.isi2 h3 span{
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 190px;
+}
+.isi2 h6{
+    padding-left: 10px;
+    font-size: 12px;
+    width: 625px;
+    line-height: 20px;
+}
+.img-group img{
+    position: relative;
+    width: 565px;
+    height: 565px;
+    z-index: 10000;
+}
+.gambar img{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.offer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 460px;
+    height: 656px;
+    padding-top: 350px;
+    margin-left: -300px;
+}
+.offer1 h1{
+    z-index: 10000;
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.Aggregator-Section{
+    background-color: #F4FBFF;
+    width: 100vw;
+    height: 500px;
+    margin-top: 375px;
+    margin-left: -115px;
+}
+.running-logo{
+    display: flex;
+    margin-left: 430px;
+    width: 631px;
+}
+.running-logo h6{
+    padding-top: 80px;
+    color: #007CBD;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+.card-wrapper2{
+    margin-left: 0px;
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+}
+.card-11{
+    width: 300px;
+    height: 144px;
+    border: none;
+}
+.card-11:hover{
+    transform: scale(1.01);
+}
+.card-11 img{
+    object-fit: cover;
+    height: 144px;
+}
+.daftar button{
+    margin-top: 50px;
+    margin-left: 620px;
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #FFFFFF;
+    background-color: #3EB7DD;
+    border: none;
+}
+.daftar button:hover{
+    background-color: #58bedd;
+    transform: scale(1.02);
+}
+.Running-Logo-Section{
+    background-color: #F4FBFF;
+    width: 100vw;
+    margin-left: -115px;
+    height: 806px;
+    padding-top: 80px;
+}
+.lates{
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    gap: 30px;
+}
+.lates h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: #007CBD;
+    padding-bottom: 30px;
+}
+.lates2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    margin-top: 20px;
+    gap: 30px;
+}
+.berita{
+    width: 355px;
+}
+.berita img{
+    height: 196px;
+}
+.link a{
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}
+.link p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #7A7B7E;
+    margin-top: 5px;
+}
+nav .openMenu {
+    font-size: 1.3rem;
+    margin: 40px;
+    display: none;
+    cursor: pointer;
+    color: white;
+    position: fixed;
+}
+
+nav .closeMenu {
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin: 40px;
+    display: none;
+    color: white;
+    position: fixed;
+}
+.nav-mobile {
+    position: fixed;
+    display: block;
+    background-color: #232340;
+    width: 250px;
+    margin-left: 0px;
+    margin-top: -78px;
+    height: 850px;
+    z-index: 1000;
+    left: -100%;
+    transition: all 0.3s ease-in;
+    overflow-y: auto;
+}
+.nav-mobile ul{
+    margin-top: 30px;
+}
+.nav-mobile ul li {
+    margin-left: 5px;
+}
+
+.nav-mobile ul li a {
+    color: white;
+    line-height: 50px;
+    margin-left: 20px;
+
+}
+.nav-mobile .logo hr{
+    margin: 0 auto;
+    width: 200px;
+    border-top: 3px solid#073C64;
+}
+.nav-mobile ul li a:hover{
+    color: yellow;
+}
+
+
+
+@media screen and (max-width: 320px){
+    .Navbar{
+        padding-left: 20px;
+        margin-top: -30px;
+    }
+    .navbar2 ul li{
+        display: none;
+    }
+    .team h1{
+        margin-top: -5px;
+        font-size: 52px;
+    }
+    nav .closeMenu {
+        display: block;
+        position: absolute;
+        margin-top: 20px;
+        right: 10px;
+        opacity: 0;
+        position: fixed;
+    }
+
+    nav .openMenu {
+        display: block;
+        right: 10px;
+        position: fixed;
+    }
+    nav.sticky{
+        margin-top: -40px;
+        background-color: #232340;
+        transition: 0.2s;
+        height: 100px;
+    }
+    nav .closeMenu {
+        display: block;
+        position: absolute;
+        margin-top: 20px;
+        right: 10px;
+        opacity: 0;
+        position: fixed;
+    }
+
+    nav .openMenu {
+        display: block;
+        right: 10px;
+        position: fixed;
+    }
+    .header img{
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+        margin-top: 5px;
+        margin-left: 18px;
+    }
+    .imgHero{
+        position: absolute;
+        object-fit: cover;
+        object-position: 72% 50%;  
+    }
+    .team1 h1{
+        color: white;
+        text-align: center;
+        margin-top: 30px;
+        font-size: 40px;
+    }
+    .team1 h1 span{
+        color: #5468E7;
+    }
+    .hero{
+        display: none;
+    }
+    .hero-mobile{
+        display: block;
+    }
+    .Hero-offer{
+        position: relative;
+        color: white;
+        margin: 250px 25px 50px 25px;
+    }
+    .Hero-offer h1{
+        font-size: 34px;
+        width: 280px;
+        line-height: 42px;
+    }
+    .Hero-offer p{
+        font-size: 16px;
+        width: 260px;
+    }
+    .container{
+        margin-left: 0px;
+        margin-top: 125px;
+    }
+    .offer{
+        margin-left: 10px;
+        position: relative;
+        margin-top: 600px;
+    }
+    .mockUp{
+
+        flex-direction: column-reverse;
+    }
+    .mockUp .mockup{
+        position: relative;
+        margin-left: -130px;
+    }
+    .mockUp h1{
+        font-size: 34px;
+        width: 260px;
+    }
+    .mockUp p{
+        color: #232340E5;
+        font-size: 16px;
+        width: 260px;
+    }
+    
+    .info-section1{
+        margin-top: 10px;
+        flex-direction: column;
+    }
+    .img-group img{
+        width: 300px;
+        height: 288px;
+        margin-left: -15px;
+    }
+    .offer1{
+        margin-top: -70px;
+        margin-left: 10px;
+    }
+    .offer1 h1{
+        font-size: 34px;
+        width: 260px;
+    }
+    .offer1 p{
+        color: #232340E5;
+        font-size: 16px;
+        width: 260px;
+    }
+    .info-section2{
+        margin-top: 0px;
+        flex-direction: column-reverse;
+    }
+    .mockup .mockup2{
+        width: 300px;
+        height: 288px;
+        margin-top: -30px;
+        margin-left: -62px;
+    }
+    .offer2{
+        margin-top: -70px;
+        margin-left: 10px;
+    }
+    .offer2 h1{
+        font-size: 34px;
+        width: 260px;
+    }
+    .offer2 p{
+        color: #232340E5;
+        font-size: 16px;
+        width: 260px;
+    }
+    .card-wrapper{
+        gap: 128px;
+    }
+    .card{
+        width: 260px;
+        height: 510px;
+    }
+    .info-section3{
+        margin-left: 18px;
+    }
+    .info-section3 h1{
+        width: 240px;
+        font-size: 34px;
+        font-weight: 700;
+        margin-left: 13px;
+    }
+    .footer{
+        flex-direction: column;
+        height: 100%;
+    }
+    .logo-footer,
+    .company,
+    .features,
+    .contactUs,
+    .stayUp {
+      /* Gaya tambahan jika diperlukan */
+      margin-bottom: 10px;
+    }
+
+    /* Menggunakan order untuk mengubah urutan tampilan */
+    .stayUp {
+        margin-top: 70px;
+      order: 2;
+      margin-left: 10px;
+    }
+    .stayUp input{
+        width: 275px;
+        position: absolute;
+    }
+    .contactUs {
+        margin-top: 50px;
+      margin-left: 10px;
+      order: 5;
+    }
+    .features {
+        margin-top: 50px;
+      margin-left: 10px;
+      order: 4;
+    }
+    .company {
+        margin-top: 50px;
+        margin-left: 10px;
+      order: 3;
+    }
+    .logo-footer {
+      order: 1;
+      margin-left: 10px;
+    }
+    .stayUp .fa-solid{
+        position: relative;
+        margin-top: 12px;
+        margin-left: 250px;
+    }
+    .copyright p{
+        font-size: 14px;
+        padding-left: 20px;
+    }
+    .card p{
+        font-size: 14px;
+    }
+    .data h3{
+        font-size: 24px;
+        width: 124px;
+    }
+    .card-image img{
+        margin-top: 42px;
+    }
+
+    
+}
+@media (min-width: 321px) and (max-width: 568px){
+    .Navbar{
+        padding-left: 20px;
+        margin-top: -30px;
+    }
+    .navbar2 ul li{
+        display: none;
+    }
+    .team h1{
+        margin-top: -5px;
+        font-size: 52px;
+    }
+    nav .closeMenu {
+        display: block;
+        position: absolute;
+        margin-top: 20px;
+        right: 10px;
+        opacity: 0;
+        position: fixed;
+    }
+
+    nav .openMenu {
+        display: block;
+        right: 10px;
+        position: fixed;
+    }
+    nav.sticky{
+        margin-top: -40px;
+        background-color: #232340;
+        transition: 0.2s;
+        height: 100px;
+    }
+    nav .closeMenu {
+        display: block;
+        position: absolute;
+        margin-top: 20px;
+        right: 10px;
+        opacity: 0;
+        position: fixed;
+    }
+
+    nav .openMenu {
+        display: block;
+        right: 10px;
+        position: fixed;
+    }
+    .imgHero{
+        position: absolute;
+        object-fit: cover;
+        object-position: 72% 50%;  
+    }
+    .team1 h1{
+        color: white;
+        text-align: center;
+        margin-top: 30px;
+        font-size: 40px;
+    }
+    .team1 h1 span{
+        color: #5468E7;
+    }
+    .Hero-offer{
+        margin-left: 25px;
+    }
+    .Hero-offer h1{
+        font-size: 50px;
+        width: 510px;
+    }
+    .Hero-offer p{
+        font-size: 18px;
+        width: 510px;
+    }
+    .getEarlyAccess input{
+        width: 298px;
+        height: 47px;
+    }
+    .getEarlyAccess button{
+        width: 200px;
+    }
+    .container{
+        margin-left: 0px;
+        margin-top: 125px;
+    }
+    .offer{
+        margin-left: 10px;
+        position: relative;
+        margin-top: 600px;
+    }
+    .mockUp{
+
+        flex-direction: column-reverse;
+    }
+    .mockUp .mockup{
+        margin-top: 50px;
+        position: relative;
+        margin-left: -130px;
+    }
+    .mockUp h1{
+        font-size: 50px;
+        width: 508px;
+    }
+    .mockUp p{
+        color: #232340E5;
+        font-size: 16px;
+        width: 508px;
+    }
+    .img-group img{
+        width: 280px;
+        height: 360px;
+        margin-left: -15px;
+    }
+    .offer1{
+        margin-top: -120px;
+        margin-left: 20px;
+    }
+    .offer1 h1{
+        font-size: 34px;
+        width: 240px;
+        line-height: 42px;
+    }
+    .offer1 p{
+        padding-top: 5px;
+        color: #232340E5;
+        font-size: 16px;
+        width: 240px;
+        line-height: 24px;
+    }
+    .info-section1{
+        margin-top: -10px;
+    }
+    .info-section2{
+        margin-top: 20px;
+    }
+    .mockup .mockup2 {
+        margin-left: -30px;
+        width: 280px;
+        height: 360px;
+    }
+    .offer2{
+        margin-top: -120px;
+        margin-left: 20px;
+    }
+    .offer2 h1{
+        font-size: 34px;
+        width: 240px;
+        line-height: 42px;
+    }
+    .offer2  p{
+        padding-top: 5px;
+        color: #232340E5;
+        font-size: 16px;
+        width: 240px;
+        line-height: 24px;
+    }
+    .offer2 a{
+        margin-top: -20px;
+    }
+    .offer1 .Learn1{
+        margin-top: -20px;
+    }
+    .card{
+        width: 260px;
+        height: 510px;
+    }
+    .card p{
+        font-size: 16px;
+    }
+    .card h3{
+        font-size: 24px;
+        width: 125px;
+    }
+    .card-image img{
+        margin-top: 42px;
+    }
+    .card-wrapper{
+        margin-left: 5px;
+        gap: 15px;
+    }
+    .footer{
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .logo-footer{
+        flex-basis: 100%;
+        margin-left: 20px;
+    }
+    .logo-footer h6{
+        font-size: 14px;
+        width: 168px;
+    }
+    .company{
+        margin-top: 50px;
+        margin-left: 20px;
+        flex-basis: 33%;
+    }
+    .features{
+        margin-top: 50px;
+        flex-basis: 33%;
+        margin-left: -25px;
+    }
+    .contactUs{
+        margin-top: 55px;
+        flex-basis: 33%;
+        margin-left: 0px;
+    }
+    .stayUp{
+        margin-top: 50px;
+        flex-basis: 100%;
+        margin-left: 20px;
+    }
+    .copyright{
+        height: 300px;
+
+    }
+    .copyright p{
+        padding-top: 200px;
+        margin-left: -118px;
+    }
+}
+
+  
